@@ -14,7 +14,7 @@ const interp = new Pchip(x, y);
 interp.evaluate(3); // 11
 interp.evaluate(4.2); // 15.464470588
 
-pchip(x, y, 3); // 11
+pchip(x, y, [3]); // [11]
 pchip(x, y, [1, 4.2]) // [1, 15.464470588]
 ```
 
